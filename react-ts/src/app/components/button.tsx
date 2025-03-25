@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function Button() {
+type ButtonProps = { 
+    style: React.CSSProperties;
+};
+
+export default function Button({ style }: ButtonProps) {
     return (
-        <button className="bg-blue-500 text-white rounded px-4 py-2">
-            Click me
-        </button>
+        <button style={style}>Click me</button>
     )
-}
+} 
