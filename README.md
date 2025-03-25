@@ -1,1 +1,1 @@
-"# Using React with TypeScript" 
+# Using React with TypeScript
